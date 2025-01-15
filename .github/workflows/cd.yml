@@ -5,9 +5,9 @@ on:
     branches:
       - 'main'
 
-  schedule:
-    - cron: '0 * * * *' # run every hour
-  workflow_dispatch:
+  #schedule:
+    #- cron: '0 * * * *' # run every hour
+#  workflow_dispatch:
     
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
